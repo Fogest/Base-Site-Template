@@ -30,4 +30,7 @@ define("DB_HOSTNAME", "localhost");
 define("DB_USERNAME", "root");
 define("DB_PASSWORD", "");
 define("DB_DATABASE", "template");
+
+/*Set timezone */
+date_default_timezone_set('America/Toronto');
 ?>
